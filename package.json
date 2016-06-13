@@ -1,0 +1,32 @@
+{
+  "name": "mean-starter",
+  "version": "1.0.0",
+  "description": "This starter application will help you get started with the base mean stack structure and will save you some time.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fahadkazi/mean-starter.git"
+  },
+  "keywords": [
+    "mean",
+    "starter",
+    "application",
+    "installer",
+    "quickstart"
+  ],
+  "author": "Fahad Kazi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fahadkazi/mean-starter/issues"
+  },
+  "homepage": "https://github.com/fahadkazi/mean-starter#readme",
+  "dependencies": {
+    "express" : "~4.5.1",
+    "mongoose" : "~3.8.0",
+    "body-parser" : "~1.4.2",
+    "method-override" : "~2.0.2"
+  }
+}
