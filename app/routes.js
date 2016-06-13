@@ -7,8 +7,8 @@ module.exports = function(app) {
     // authentication routes
 
     // sample api route
-    app.get('/', function(req, res) {
-        res.json({ message: 'hooray! welcome to our api!' });
+    app.get('/api', function(req, res) {
+        console.log({ message: 'hooray! welcome to our api!' });
     });
 
     // route to handle creating goes here (app.post)

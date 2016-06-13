@@ -18,14 +18,6 @@ var port = process.env.PORT || 8080;
 // (uncomment after you enter in your own credentials in config/db.js)
 // mongoose.connect(db.url); 
 
-// ROUTES FOR OUR API
-// =============================================================================
-var router = express.Router();
-
-// REGISTER OUR ROUTES -------------------------------
-// all of our routes will be prefixed with /api
-app.use('/api', router);
-
 // get all data/stuff of the body (POST) parameters
 // parse application/json 
 app.use(bodyParser.json()); 

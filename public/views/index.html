@@ -21,21 +21,21 @@
     <!-- ANGULAR CUSTOM -->
     <script src="js/appRoutes.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/controllers/MainCtrl.js"></script>
 </head>
 <body ng-app="meanStarterApp" layout="column" ng-cloak>
+    <md-toolbar>
+      <h3>
+        <md-button>Test</md-button>
+        <md-button>Test</md-button>
+        <md-button hide-sm>Test</md-button>
+        <md-button hide-sm>Test</md-button>
+        <md-button hide-sm>Test</md-button>
+        <md-button hide-sm>Test</md-button>
+        <md-button hide-sm>Test</md-button>
+      </h3>
+    </md-toolbar>
     <md-content class="md-padding" layout="column">
-        <md-toolbar>
-          <h3>
-            <md-button>Test</md-button>
-            <md-button>Test</md-button>
-            <md-button hide-sm>Test</md-button>
-            <md-button hide-sm>Test</md-button>
-            <md-button hide-sm>Test</md-button>
-            <md-button hide-sm>Test</md-button>
-            <md-button hide-sm>Test</md-button>
-          </h3>
-        </md-toolbar>
-
         <!-- ANGULAR DYNAMIC CONTENT -->
         <div ng-view></div>
     </md-content>
