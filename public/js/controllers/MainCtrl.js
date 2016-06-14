@@ -1,6 +1,6 @@
 // public/js/controllers/MainCtrl.js
-angular.module('MainCtrl', []).controller('MainController', function($scope) {
+var app = angular.module('MainCtrl', []);
 
-    $scope.tagline = 'To the moon and back!';   
-
+app.controller('MainController', function($scope) { 
+	
 });

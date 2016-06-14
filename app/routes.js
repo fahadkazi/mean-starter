@@ -1,18 +1,20 @@
 // app/routes.js
 
-module.exports = function(app) {
+module.exports = function(app, router) {
 
     // server routes ===========================================================
     // handle things like api calls
     // authentication routes
 
     // sample api route
-    app.get('/api', function(req, res) {
-        console.log({ message: 'hooray! welcome to our api!' });
-    });
+    router.route('/')
+        .get(function(req, res) {
+            res.json({ message: 'hooray! welcome to our api!' });
+        });
 
-    // route to handle creating goes here (app.post)
-    // route to handle delete goes here (app.delete)
+    // REGISTER OUR ROUTES -------------------------------
+    // all of our routes will be prefixed with /api
+    app.use('/api', router);
 
     // frontend routes =========================================================
     // route to handle all angular requests
