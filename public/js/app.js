@@ -1,5 +1,5 @@
 // public/js/app.js
-var app = angular.module('meanStarterApp', ['ngRoute', 'appRoutes', 'MainCtrl', 'ngMaterial']);
+var app = angular.module('meanStarterApp', ['ngRoute', 'ngMaterial']);
 
 app.controller('NavCtrl', function($scope, $mdSidenav) { 
 	$scope.showMobileMainHeader = true;

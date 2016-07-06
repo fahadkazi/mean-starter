@@ -1,5 +1,5 @@
 // public/js/appRoutes.js
-angular.module('appRoutes', []).config(function($routeProvider, $locationProvider) {
+angular.module('meanStarterApp').config(function($routeProvider, $locationProvider) {
 
     $routeProvider
 
